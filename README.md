@@ -10,6 +10,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-SAAS-App-Store/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-SAAS-App-Store?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-SAAS-App-Store/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-SAAS-App-Store/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 > 🌟 **A curated directory of SaaS App Stores, Cloud Marketplaces, Plugin Registries, and Extensible Developer Ecosystems.**  
@@ -24,6 +25,8 @@
 - [🏢 SaaS / Hosted Platforms](#-saashosted-platforms)
 - [💻 Open-Source GitHub Projects](#-open-source-github-projects)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [⭐ Star History](#-star-history)
+- [☕ Support](#-support)
 - [⚠️ Disclaimer](#️-disclaimer)
 
 ---
@@ -90,6 +93,23 @@ Contributions are welcome and appreciated! Follow these steps to submit a platfo
    - For **SaaS Marketplaces**: provide verified starting pricing, explicit free-tier/trial limits, company valuation/revenue, and key ecosystem characteristics.
    - For **Open-Source Repos**: ensure accurate GitHub star badges linking directly to `/stargazers`, along with a concise architectural summary.
 3. 🚀 Submit a pull request with a clear description of your additions.
+
+---
+
+## 🌟 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-SAAS-App-Store&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-SAAS-App-Store&type=date&legend=top-left)
+
+---
+
+## ☕ Support
+
+Thank you for exploring and using this curated resource! If you found this repository helpful, consider supporting its maintenance and growth:
+
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork and contribute** new platforms, plugin registries, and tools.
+- 📢 **Share it** with fellow engineers, builders, and ecosystem architects.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing open-source curation and development, you can sponsor via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
 
 ---
 
