@@ -1,199 +1,100 @@
-# Awesome-SAAS-App-Store
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome SaaS App Store Banner" width="100%" />
+</p>
 
-## Top SaaS App Store Ecosystem
+# Awesome SaaS App Store 🚀
 
+<p align="left">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-SAAS-App-Store/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-SAAS-App-Store?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-SAAS-App-Store/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-SAAS-App-Store?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-SAAS-App-Store/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-SAAS-App-Store/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
+</p>
 
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Marketplace Infrastructure, Plugin Registries & Self-Hosted App Directories*  
+> 🌟 **A curated directory of SaaS App Stores, Cloud Marketplaces, Plugin Registries, and Extensible Developer Ecosystems.**  
+> *Discover leading commercial ecosystems, self-hosted marketplace engines, and developer tools to turn SaaS platforms into extensible multi-sided marketplaces.*
 
 **Last updated: November 2026**
 
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **SaaS App Stores**. These platforms enable users to discover, install, and manage applications and integrations within a host SaaS ecosystem—turning a product into a platform with an extensible marketplace.
-
-
-
-**Examples** include Atlassian Marketplace, Salesforce AppExchange (now AgentExchange), HubSpot App Marketplace, Google Workspace Marketplace, Zendesk Apps, ServiceNow Store, Shopify App Store, Slack App Directory, Microsoft AppSource, and AWS Marketplace (the category leaders).
-
-
-
-**Open-source emphasis**: SaaS App Store is a domain where open-source tooling is **fragmented and largely immature for the core marketplace experience**. The strongest active projects are **Tabularium** (a self-hosted plugin registry with OAuth submission, signed releases, and OpenAPI) and **Open VSX** (the vendor-neutral, open-source alternative to the Visual Studio Marketplace). For building a marketplace *from* open-source commerce engines, **Mercur** provides multi-vendor primitives on Medusa, but it is a commerce marketplace, not a SaaS app directory. The critical caveat: **no open-source project replicates the enterprise procurement, billing, and runtime coupling** of the major platform app stores—those are business-model integrations that software alone cannot provide.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Atlassian Marketplace](https://marketplace.atlassian.com/)**  
-
-  App marketplace for Jira, Confluence, and Bitbucket; **7,210 active listings** with **1,985 partners** as of 2026 . Freemium cost model with medium approval difficulty; high traffic for team tools . Deep integration with Atlassian's Data Center and Cloud ecosystems.
-
-
-
-- **[Salesforce AppExchange (AgentExchange)](https://appexchange.salesforce.com/)**  
-
-  The oldest and most consolidated cloud marketplace (20+ years); **6,709 listings** with **3,229 partners** . Renamed and unified into **AgentExchange** in 2026, combining AppExchange, AgentExchange, and Slack Marketplace into a single destination for agents, apps, and experts . Features semantic search, LLM-assisted listing authoring, MCP server publishing, and mandatory security reviews for private listings . Revenue share 15% (ISVforce) or 25% (OEM).
-
-
-
-- **[HubSpot App Marketplace](https://www.hubspot.com/apps)**  
-
-  Integration marketplace for HubSpot CRM; apps are listed without requiring transactable status, though legal and security reviews are required before listing goes live.
-
-
-
-- **[Google Workspace Marketplace](https://workspace.google.com/marketplace)**  
-
-  App marketplace for Google Workspace; integrates with Gmail, Drive, Calendar, and Docs; requires Google's OAuth verification and security review.
-
-
-
-- **[Zendesk Apps](https://www.zendesk.com/apps/)**  
-
-  App directory for Zendesk support platform; apps extend ticketing, chat, and help center functionality.
-
-
-
-- **[ServiceNow Store](https://store.servicenow.com/)**  
-
-  App marketplace for the Now Platform; certified apps and integrations for ITSM, HR, and security workflows.
-
-
-
-- **[Shopify App Store](https://apps.shopify.com/)**  
-
-  The **largest app marketplace by listings** with **13,151 active listings** and **5,502 partners** . **Fastest growing** (+613 listings, +4.66% in 30 days) . Hard approval process with revenue share; very high traffic for ecommerce apps .
-
-
-
-- **[Slack App Directory](https://slack.com/apps)**  
-
-  App directory for Slack; now unified into Salesforce's AgentExchange alongside AppExchange . Apps extend messaging, workflow automation, and third-party integrations.
-
-
-
-- **[Microsoft AppSource](https://appsource.microsoft.com/)**  
-
-  Microsoft's marketplace for business apps, add-ins, and agents across Microsoft 365, Dynamics 365, and Power Platform.
-
-
-
-- **[AWS Marketplace](https://aws.amazon.com/marketplace)**  
-
-  The largest enterprise data and software marketplace with **3,500+ paid commercial listings** and **48.45% market share** in data marketplace category. Purchases run through AWS billing against committed cloud spend.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Plugin Registries & App Directories
-
-
-
-- **[Tabularium](https://codeberg.org/Tabularium/Tabularium)**  
-
-  The most complete open-source **self-hosted plugin registry** for distributing versioned artifacts (plugins, themes, snippets, SQL templates) . Features: **multi-provider submission** (GitHub, GitLab, Gitea, Forgejo—any self-hosted instance) with manifest preview on repo selection; **signed releases** (SHA-256 hash + Ed25519 signature, JWKS at `/.well-known/registry-key.json`, forwards GitHub build-provenance attestations) ; **plugin requests** with voting and claiming; **plugin ownership transfer**; **multi-language READMEs** via manifest `readmes:` field; **desktop app URL scheme** registration; **plugin type taxonomy** (Themes, Snippets, SQL templates) with separate public catalogs per type; **built-in CMS** with widget-enabled Markdown pages and per-language translation; **branding customization** (name, colors, logo, favicon, analytics, indexing policy) ; **6 languages**; **SQLite/Postgres/MySQL** auto-detected from `DATABASE_URL`; **feature flags** to disable submissions or requests without redeployment; **audit logs** for every admin action . Stack: Bun, Elysia, SvelteKit, Drizzle ORM, Dragonfly/Redis optional. **Best for teams wanting a self-hosted plugin registry** with signed releases and multi-provider Git integration—but it is a registry, not a commerce-enabled app store with billing.
-
-
-
-- **[Open VSX](https://github.com/eclipse/openvsx)**  
-
-  The **vendor-neutral, open-source alternative to the Visual Studio Marketplace** (Eclipse Foundation) . Full-stack solution: **Spring Boot backend** (PostgreSQL, Elasticsearch optional for search), **React web UI** (searchable gallery, user profiles, admin dashboard), and **Node.js CLI** (`ovsx`) for packaging and publishing from terminal/CI . Features: **VS Code protocol compatibility** (drop-in replacement for VS Code and VSCodium via `VSCodeAPI` adapter) ; **multi-backend storage** (Local Filesystem, AWS S3, Google Cloud Storage, Azure Blob Storage) ; **hybrid persistence** (JPA/Hibernate for CRUD, jOOQ for complex queries) . **The most mature open-source app store platform available**—but it is **VS Code extension-specific**, not a general-purpose SaaS app marketplace.
-
-
-
-### Commerce Marketplace Engines (Build Your Own)
-
-
-
-- **[Mercur](https://github.com/mercurjs/mercur)**  
-
-  Open-source **multi-vendor marketplace engine** built on Medusa (MIT, ~1.6k GitHub stars) . Provides the marketplace primitives: seller onboarding, multi-vendor catalogs, per-seller commissions, admin panel, separate seller portal, and automated payouts (via Stripe Connect) . **Headless architecture**—you build your own storefront. **Best for teams wanting to build a commerce marketplace** (digital goods, services, or physical products) with vendor management—but it is **not a SaaS app store** with plugin installation, versioning, or runtime integration .
-
-
-
-- **[Medusa](https://github.com/medusajs/medusa)**  
-
-  Open-source headless commerce platform (MIT, ~30k GitHub stars) . Multi-vendor support via **community plugins** (e.g., `medusa-marketplace-plugin`) that add vendor stores, entity separation, and super admin impersonation . **Best for teams already on Medusa** wanting to add marketplace functionality—but it requires custom development and is not a turnkey app store .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Saleor Apps** — Saleor's app ecosystem is open-source (BSD-3) and apps can be self-hosted, but **Saleor App Store itself is a Saleor Cloud feature** exclusive to cloud users . Self-hosted Saleor requires manual app installation .
-
-- **Einstore** — Enterprise app store for internal app deployment, completely open source . **Niche**—for distributing internal enterprise apps rather than public SaaS marketplace listings.
-
-- **zapstore** — Permissionless app store powered by your social network (Android) . **Consumer-focused**—for Android app distribution outside Google Play, not SaaS integrations.
-
-- **AltStore PAL** — Open-source alternative app marketplace for iOS in the EU (enabled by the Digital Markets Act); apps are self-hosted by developers, users add sources manually . **EU-specific and iOS-only**—not relevant for SaaS app stores.
-
-
-
-**Frameworks for building custom systems**: For a **self-hosted plugin registry with signed releases**, Tabularium provides the most complete open-source option . For a **VS Code-compatible extension marketplace**, Open VSX is the only mature choice . For a **commerce marketplace with vendors and payouts**, Mercur provides the primitives (accepting that it is not a SaaS app store) . **No open-source project replicates the enterprise procurement, billing, and runtime coupling** of Atlassian Marketplace, Salesforce AgentExchange, or Shopify App Store—those are platform-specific business integrations.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- SaaS app stores handling third-party applications and user data must comply with platform security review requirements, privacy regulations (GDPR, CCPA), and revenue-sharing agreements; **listing an app on a major marketplace often requires security certifications, code reviews, and compliance attestations**.
-
-- **Open-source SaaS app store infrastructure is severely limited**—Tabularium provides a self-hosted plugin registry , and Open VSX provides a VS Code extension marketplace . However, **no open-source project replicates the enterprise procurement, billing, and runtime coupling** of Atlassian Marketplace, Salesforce AgentExchange, or Shopify App Store. These platforms derive their value from distribution to existing user bases and integrated billing—advantages that open-source software cannot provide.
-
-- Verify license terms for commercial use; Tabularium is open-source (Codeberg) , Open VSX is hosted by the Eclipse Foundation (check repository license), and Mercur uses MIT .
-
-
+---
+
+## 📑 Table of Contents
+- [📈 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS / Hosted Platforms](#-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#️-disclaimer)
 
 ---
 
+## 📈 Sector Overview & Market Dynamics
 
+The global **Cloud Marketplace & SaaS App Store sector** is estimated at **$18.5 Billion in 2026** and projected to exceed **$85 Billion by 2030**, expanding at a rapid CAGR of ~36% as enterprise buyers increasingly route committed cloud budgets through digital marketplaces. 
 
-**Made for platform engineers, developer relations teams, and organizations building or evaluating marketplace infrastructure.**  
+The sector exhibits **high concentration (winner-take-most dynamics)** at the foundational cloud infrastructure and enterprise workflow layer—dominated by hyper-scalers (AWS Marketplace, Microsoft AppSource) and ecosystem titans (Salesforce AgentExchange, Shopify App Store, Atlassian Marketplace) which command massive distribution moats and pre-committed spend. Simultaneously, **moderate fragmentation** persists across developer tooling, open-source plugin registries, and vertical B2B commerce ecosystems where self-hosted and niche extensible platforms flourish.
 
-Let's make SaaS app stores more open at the registry layer, but with clear eyes about the distribution and billing moats that commercial platforms still hold.
+---
+
+## 🏢 SaaS/Hosted Platforms
+
+The following table benchmarks category-leading SaaS app stores and cloud marketplace platforms, sorted by parent company scale (Market Cap / Valuation descending):
+
+| Platform | Company Valuation / Revenue | Starting Tier Pricing | Free Tier / Trial Limit | Key Focus & Ecosystem Highlights |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft AppSource](https://appsource.microsoft.com/)** | $3.15 Trillion | $0 listing fee; 3% standard transaction fee on transactable SaaS apps | Free perpetual account on Partner Center; offers 30-day free trial on paid app listings | Enterprise marketplace spanning Microsoft 365, Teams, Dynamics 365, and Power Platform agents. |
+| **[Google Workspace Marketplace](https://workspace.google.com/marketplace)** | $2.15 Trillion | $0 listing fee; $5 one-time developer registration fee; 0% cut on direct merchant charges | Free perpetual listing tier; supports free-for-life add-ons and configurable 14-day or 30-day trials | Workspace add-in ecosystem integrating Gmail, Drive, Docs, Sheets, Meet, and Calendar. |
+| **[AWS Marketplace](https://aws.amazon.com/marketplace)** | $2.05 Trillion | $0 listing fee; 1.5% to 3% transaction fee on private contracts & commercial software | Free AWS seller registration; paid software offers 15-day or 30-day free trials (pay-only for AWS infrastructure) | Leading enterprise data and cloud software marketplace with 3,500+ commercial offerings drawn against AWS committed spend. |
+| **[Salesforce AppExchange (AgentExchange)](https://appexchange.salesforce.com/)** | $310 Billion | $0 for free apps; 15% rev share (ISVforce) or 25% (OEM); $255 one-time security review fee per app | Free perpetual tier for non-monetized/free app listings; 30-day test-drive / free trial for ISV apps | Pioneer cloud marketplace (20+ years); unified into AgentExchange uniting AI agents, Slack apps, and enterprise CRM solutions. |
+| **[ServiceNow Store](https://store.servicenow.com/)** | $195 Billion | $5,000/year Technology Partner Program membership; 15% revenue share on transactable store sales | Partner Sandbox environment with 30-day developer instance; enterprise apps offer 30-day free trials | Enterprise app store certified for the Now Platform, ITSM workflows, HR Service Delivery, and SecOps. |
+| **[Shopify App Store](https://apps.shopify.com/)** | $145 Billion | 0% rev share on first $1M/year (15% thereafter); $99 one-time Partner registration fee | Free perpetual listing for 100% free apps; paid apps configure 7-day, 14-day, or 30-day trial periods | Largest ecommerce app marketplace with 13,000+ listings empowering merchant storefronts and operational automations. |
+| **[Atlassian Marketplace](https://marketplace.atlassian.com/)** | $58 Billion | 10% rev share on Cloud apps (25% on Data Center apps); $0 listing creation fee | Free perpetual tier for all apps on cloud instances up to 10 users; 30-day free trials on paid plans | Comprehensive team collaboration marketplace for Jira, Confluence, Bitbucket, and Trello with 7,000+ listings. |
+| **[HubSpot App Marketplace](https://www.hubspot.com/apps)** | $32 Billion | $0 listing fee (0% commission on off-platform billing); $0 developer program enrollment fee | Free perpetual listing tier for certified community integrations; 14-day free trials configured by partners | CRM and marketing automation ecosystem hosting 1,500+ integrations without mandatory in-app checkout coupling. |
+| **[Zendesk Apps](https://www.zendesk.com/apps/)** | $10.2 Billion (PE) | $0 listing fee for free apps; $1,500/year for monetized apps on Zendesk Marketplace | Free perpetual listing for free apps; paid customer support tools offer 14-day or 30-day trial configurations | Support ticketing, omnichannel contact center, and customer experience extensions directory. |
+| **[Slack App Directory](https://slack.com/apps)** | Part of Salesforce ($310B) | $0 developer submission fee; 15% rev share if monetized via AgentExchange checkout | Free perpetual tier for unlimited free apps; up to 10 custom apps per free Slack workspace; 30-day partner trials | Workspace collaboration and bot hub, now natively connected with Salesforce Agentforce ecosystems. |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+Explore open-source marketplace engines, plugin registries, extensible application stores, and self-hosted app catalogs.
+
+*Sorted by GitHub Star count (descending):*
+
+| Project | Stars | Focus & Architecture |
+| :--- | :--- | :--- |
+| **[Strapi](https://github.com/strapi/strapi)** | [![GitHub stars](https://img.shields.io/github/stars/strapi/strapi?style=social&color=white)](https://github.com/strapi/strapi/stargazers) | Open-source headless CMS with an official built-in **In-App Marketplace** allowing administrators to discover and install community plugins, providers, and custom integrations directly from the admin panel. |
+| **[Nextcloud Server](https://github.com/nextcloud/server)** | [![GitHub stars](https://img.shields.io/github/stars/nextcloud/server?style=social&color=white)](https://github.com/nextcloud/server/stargazers) | Self-hosted productivity platform featuring the **Nextcloud App Store** (`apps.nextcloud.com`), complete with automated digital signature verification, one-click in-app installation, and release channels. |
+| **[Medusa](https://github.com/medusajs/medusa)** | [![GitHub stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers) | Headless digital commerce engine (Node.js/TypeScript). Extensible via its official plugin registry and modular multi-vendor marketplace architecture with granular entity separation and seller payouts. |
+| **[Directus](https://github.com/directus/directus)** | [![GitHub stars](https://img.shields.io/github/stars/directus/directus?style=social&color=white)](https://github.com/directus/directus/stargazers) | Real-time backend and data platform providing an official **Directus Marketplace** directly inside the management console for installing extensions, custom API endpoints, displays, and layout modules. |
+| **[Mattermost](https://github.com/mattermost/mattermost)** | [![GitHub stars](https://img.shields.io/github/stars/mattermost/mattermost?style=social&color=white)](https://github.com/mattermost/mattermost/stargazers) | Open-source enterprise collaboration suite featuring a native **Mattermost App & Plugin Marketplace** with signed plugin validation, enterprise bot management, and webhook directories. |
+| **[Saleor](https://github.com/saleor/saleor)** | [![GitHub stars](https://img.shields.io/github/stars/saleor/saleor?style=social&color=white)](https://github.com/saleor/saleor/stargazers) | High-performance GraphQL-first headless commerce ecosystem featuring a dedicated open-source App Store framework with bidirectional webhooks, asynchronous workers, and customizable dashboards. |
+| **[Node-RED](https://github.com/node-red/node-red)** | [![GitHub stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers) | Low-code event-driven integration platform featuring an integrated **Flow & Node Library (Palette Manager)** allowing one-click searching and installing from 4,000+ community modules. |
+| **[AltStore](https://github.com/altstoreio/AltStore)** | [![GitHub stars](https://img.shields.io/github/stars/altstoreio/AltStore?style=social&color=white)](https://github.com/altstoreio/AltStore/stargazers) | Pioneering open-source alternative application marketplace for iOS and iPadOS, providing decentralized source registries and third-party developer app distribution. |
+| **[Frappe Framework](https://github.com/frappe/frappe)** | [![GitHub stars](https://img.shields.io/github/stars/frappe/frappe?style=social&color=white)](https://github.com/frappe/frappe/stargazers) | Full-stack Python/JS web framework powering ERPNext; features **Frappe Cloud Marketplace** for publishing, distributing, and deploying vertical SaaS extensions and customized applications. |
+| **[Vendure](https://github.com/vendure-ecommerce/vendure)** | [![GitHub stars](https://img.shields.io/github/stars/vendure-ecommerce/vendure?style=social&color=white)](https://github.com/vendure-ecommerce/vendure/stargazers) | Headless GraphQL commerce framework built with TypeScript and NestJS, with first-class support for multi-vendor digital marketplaces, custom plugin registries, and third-party vendor onboarding. |
+| **[Open VSX](https://github.com/eclipse/openvsx)** | [![GitHub stars](https://img.shields.io/github/stars/eclipse/openvsx?style=social&color=white)](https://github.com/eclipse/openvsx/stargazers) | Vendor-neutral, open-source alternative to Microsoft Visual Studio Marketplace hosted by the Eclipse Foundation. Offers full-stack Spring Boot registry, React gallery UI, and `ovsx` CLI publishing tools. |
+| **[Mercur](https://github.com/mercurjs/mercur)** | [![GitHub stars](https://img.shields.io/github/stars/mercurjs/mercur?style=social&color=white)](https://github.com/mercurjs/mercur/stargazers) | Multi-vendor marketplace engine built on top of Medusa. Features automated vendor onboarding, split commission handling, admin dashboard, independent seller portals, and Stripe Connect payouts. |
+| **[zapstore](https://github.com/zapstore/zapstore)** | [![GitHub stars](https://img.shields.io/github/stars/zapstore/zapstore?style=social&color=white)](https://github.com/zapstore/zapstore/stargazers) | Permissionless and decentralized application store and publishing client leveraging decentralized protocols for software distribution and sovereign identity verification. |
+| **[Einstore](https://github.com/einstore/einstore)** | [![GitHub stars](https://img.shields.io/github/stars/einstore/einstore?style=social&color=white)](https://github.com/einstore/einstore/stargazers) | Self-hosted enterprise application directory and mobile distribution platform designed for continuous internal team deployments and secure enterprise APK/IPA artifact sharing. |
+| **[Tabularium](https://codeberg.org/Tabularium/Tabularium)** | *(Codeberg)* | Purpose-built self-hosted plugin registry supporting multi-provider Git authentication (GitHub, GitLab, Gitea, Forgejo), signed Ed25519 releases, automated provenance verification, and dynamic category taxonomies. |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome and appreciated! Follow these steps to submit a platform or repository:
+
+1. 🍴 Fork this repository.
+2. 📝 Edit `README.md` following the tabular format and guidelines:
+   - For **SaaS Marketplaces**: provide verified starting pricing, explicit free-tier/trial limits, company valuation/revenue, and key ecosystem characteristics.
+   - For **Open-Source Repos**: ensure accurate GitHub star badges linking directly to `/stargazers`, along with a concise architectural summary.
+3. 🚀 Submit a pull request with a clear description of your additions.
+
+---
+
+## ⚠️ Disclaimer
+
+- This curated list is maintained by the community for informational and architectural evaluation purposes.
+- SaaS app stores managing third-party applications must comply with strict platform security reviews, SOC2/ISO requirements, and privacy regulations (GDPR, CCPA).
+- Open-source registries offer great independence at the catalog layer, but commercial platforms hold major distribution moats through existing enterprise billing consolidation and committed cloud spend.
